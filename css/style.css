@@ -1,0 +1,43 @@
+.banner{
+    width: 1510px;
+    height: 1026px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.banner__logo{
+    padding-left: 170px;
+    padding-top: 283px;
+    padding-bottom: 643px;
+    padding-right: 1070px;
+}
+.banner__title{
+    color: #fff;
+    padding-left: 170px;
+    padding-top: 433.88px;
+    padding-bottom: 424.12px;
+    padding-right: 670px;
+
+}
+.banner__subtitle{
+    color: #fff;
+    padding-left: 170px;
+    padding-right: 1070px;
+    padding-top: 699px;
+    padding-bottom: 285px;
+}
+.social{
+    width: 1510px;
+    height: 140px;
+    background: #F8EFEF;
+    padding-top: 1024px;
+}
+.social__media{
+    padding-left: 170px;
+    padding-top: 2px;
+    padding-bottom: 18px;
+    padding-right: 870px;
+
+}
+.social__media__title{
+    color: #333333;
+    
+}
