@@ -1,43 +1,126 @@
+body{
+
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    width: 1510px;
+height: 75px;
+
+
+
+background: #000000;
+}
+.header__logo{
+    height: 74px;
+    width: 183px;
+    left: 115px;
+    top: 0px;
+    border-radius: 0px;
+    
+}
+.header__list{
+    display: flex;
+    height: 75px;
+width: 570px;
+left: 471px;
+top: 1px;
+border-radius: 0px;
+
+
+}
+.header__list__link1{
+
+}
 .banner{
     width: 1510px;
-    height: 1026px;
+    max-height: 100%;
     background: rgba(0, 0, 0, 0.5);
+
+    
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    
 }
 .banner__logo{
-    padding-left: 170px;
-    padding-top: 283px;
-    padding-bottom: 643px;
-    padding-right: 1070px;
+    height: 100px;
+    width: 270px;
+    left: 170px;
+    top: 283px;
+    border-radius: 0px;
+    
 }
+
 .banner__title{
     color: #fff;
-    padding-left: 170px;
-    padding-top: 433.88px;
-    padding-bottom: 424.12px;
-    padding-right: 670px;
+    height: 168px;
+width: 670px;
+left: 170px;
+top: 433.8798828125px;
+border-radius: 0px;
+align-items: center;
+text-transform: uppercase;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+
+}
+.banner__separator{
+    height: 0px;
+width: 170px;
+
+padding-top: 55.12px;
+border: center 1px solid #FFFFFF;
 
 }
 .banner__subtitle{
-    color: #fff;
-    padding-left: 170px;
-    padding-right: 1070px;
-    padding-top: 699px;
-    padding-bottom: 285px;
+    height: 42px;
+width: 270px;
+
+padding-top: 42px;
+border-radius: 0px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
 }
+.handle{
+    display: flex;
+}
+
 .social{
     width: 1510px;
     height: 140px;
     background: #F8EFEF;
-    padding-top: 1024px;
+    
 }
-.social__media{
-    padding-left: 170px;
-    padding-top: 2px;
-    padding-bottom: 18px;
-    padding-right: 870px;
+
 
 }
 .social__media__title{
-    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #333333;
     
+}
+.social__icons{
+    display: flex;
 }
