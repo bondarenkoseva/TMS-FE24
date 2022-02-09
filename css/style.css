@@ -1,7 +1,12 @@
 body{
 
     font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+.container{
+    max-width: 1170px;
+    margin: auto;
+    
 .header{
     width: 1510px;
 height: 75px;
@@ -38,10 +43,7 @@ border-radius: 0px;
 
     
 }
-.container{
-    max-width: 1170px;
-    margin: auto;
-    
+
 }
 .banner__logo{
     height: 100px;
@@ -109,7 +111,7 @@ color: #FFFFFF;
 
 }
 .social__media__title{
-    font-family: 'Open Sans', sans-serif;
+    f
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
