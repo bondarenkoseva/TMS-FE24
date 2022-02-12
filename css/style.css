@@ -125,10 +125,6 @@ h6 ,
 background: ;
 color: #EC7979;
 border: 2px solid #EC7979;
-
-
-
-
 }
 .button1:active{
     color: #fff;
@@ -136,8 +132,16 @@ border: 2px solid #EC7979;
     border: 2px solid #AB4949;
 
 }
+.button2:hover{
+    background: #AB4949;
+}
+.button2:active{
+    background: #EC7979;
+
+}
 header{
     background: rgba(0, 0, 0, 1);
+    height: 75px;
 }
 
 .header__logo{
@@ -151,7 +155,6 @@ font-size: 14px;
 line-height: 19px;
 display: flex;
 padding: 25px;
-
 align-items: center;
 text-align: center;
 min-width: 114px;
@@ -189,11 +192,17 @@ color: #FFFFFF;
 
     text-decoration: none;
     justify-content: flex-end;
+    height: 75px;
+
 }
 .header__list{
     text-decoration: none;
     color: #FFFFFF;
     text-align: center;
+    height: 75px;
+    display:flex;
+    align-items: center;
+
 }
 
 .main-banner{
@@ -241,4 +250,10 @@ color: #FFFFFF;
 .social__subtitle{
     color:  #86878B;
     margin-bottom: 18px;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    align-items: center;
+
 }
