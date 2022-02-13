@@ -71,7 +71,7 @@ h6 ,
     text-decoration: none;
     font-family: "Open Sans" ,  sans-serif;
     width: 270px;
-    min-height: 60px;
+    min-height: 64px;
     padding: 18px  0;
     text-align: center;
     border: 2px solid #FFFFFF;
@@ -143,6 +143,10 @@ header{
     background: rgba(0, 0, 0, 1);
     height: 75px;
 }
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
 
 .header__logo{
     margin-left: -55px;
@@ -191,7 +195,7 @@ color: #FFFFFF;
 .header__menu{
 
     text-decoration: none;
-    justify-content: flex-end;
+    display: flex;
     height: 75px;
 
 }
@@ -207,7 +211,7 @@ color: #FFFFFF;
 
 .main-banner{
     background: rgba(0, 0, 0, 0.5);
-    padding: 283px 0px 185px;
+    padding: 208px 0px 185px;
 }
 
 .main-banner__logo{
@@ -238,22 +242,54 @@ color: #FFFFFF;
     margin-bottom: 42px;
 }
 .social{
-    height: 140px;
+    min-height: 140px;
     background: rgba(248, 239, 239, 1);
     padding: 2px / 0 / 18px;
+    margin-bottom: 99px;
 
+}
+.social__content{
+    display: flex;
+    justify-content: space-between;
 }
 .social__title{
     color: #333333;
     margin-bottom: 18px;
+    height: 60px;
+    max-width: 470px;
 }
 .social__subtitle{
     color:  #86878B;
     margin-bottom: 18px;
+    max-height: 42px;
+    max-width: 470px;
 }
 .icon{
     width: 70px;
     height: 70px;
+    margin-left: 30px;
     align-items: center;
+
+}
+.social__list{
+    padding:35px 0;
+    display: flex;
+    
+}
+.tab__menu{
+
+}
+.tab__title{
+    height: 123px;
+    width: 570px;
+    text-align: center;
+    line-height: 41px;
+    padding: 41px / 0;
+
+}
+.tab__subtitle{
+    color: black;
+    width: 570px;
+    height: 210px;
 
 }
