@@ -210,7 +210,8 @@ color: #FFFFFF;
 }
 
 .main-banner{
-    background: rgba(0, 0, 0, 0.5);
+    background: url(/images/image.svg);
+    background-size: cover;
     padding: 208px 0px 185px;
 }
 
@@ -218,11 +219,12 @@ color: #FFFFFF;
     width: 270px;
     height: 100px;
     margin-bottom: 51px;
+    padding: 0 / 22px / 100px / 22px;
 }
-.main-banner__logo--img{
-    width: 165px;
-    height: 110px;
+.main-banner__img{
+
 }
+
 .main-banner__title{
     margin-bottom: 55px;
 }
@@ -242,7 +244,6 @@ color: #FFFFFF;
     margin-bottom: 42px;
 }
 .social{
-    min-height: 140px;
     background: rgba(248, 239, 239, 1);
     padding: 2px / 0 / 18px;
     margin-bottom: 99px;
@@ -276,21 +277,200 @@ color: #FFFFFF;
     display: flex;
     
 }
+.tab{
+    border: 1px solid #C6CBCD;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
 .tab__menu{
+
+    
+    display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+font-family:" Open Sans" serif;
+font-style: normal;
+font-weight: normal;
+}
+.tab__item{
+    width: 38px;
+    height: 19px;
+    line-height: 19px;
+    padding: 10px  0;
+    font-size: 14px;
+
+
 
 }
 .tab__title{
     height: 123px;
     width: 570px;
-    text-align: center;
     line-height: 41px;
-    padding: 41px / 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
 
 }
 .tab__subtitle{
     color: black;
     width: 570px;
     height: 210px;
-    margin-left: 41px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
 
+
+}
+.tab__button{
+    margin-bottom: 54px;
+}
+.tab__img{
+    width: 470px;
+    height: 500px;
+    background-image: url(/images/Rectangle\ 111.svg);
+    margin-top: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about__title{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+.about__separator{
+    margin-bottom: 40px;
+    border: 1px solid #EC7979;
+    max-width: 170px;
+}
+.about__subtitle{
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-info__title{
+    max-width: 369px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+.about-info__icon{
+    width: 92px;
+    height: 92px;
+    margin-bottom: 39px;
+    padding: 13px;
+    border: 1px solid #EC7979;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+
+}
+
+.about-info__subtitle{
+    color: #000;
+
+}
+.price{
+    background-color: rgba(245, 245, 245, 1);
+    background-size: cover;
+    min-height: 900px;
+
+}
+.price__title{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    padding-top: 50px;
+}
+.price__separator{
+    margin-bottom: 40px;
+    border: 1px solid #EC7979;
+    max-width: 170px;
+}
+.price__subtitle{
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 79px;
+}
+.price__list{
+    display: flex;
+    
+    justify-content: space-between;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+.list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-top{
+    position: relative;
+    bottom: 20px;
+}
+.list__title{
+    min-width: 370px;
+    height: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+border: 2px solid #F5F5F5;
+
+}
+.list__subtitle{
+    color: #fff;
+    width: 370px;
+    height: 100px;
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+border: 2px solid #F5F5F5;
+
+}
+.list__descrip{
+    color: rgba(255, 255, 255, 0.5);
+width: 370px;
+height: 50px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+background: #333333;
+border: 2px solid #F5F5F5;
+}
+.list__shop{
+    width: 370px;
+    height: 50px;
+    color: #86878B;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    text-align: center;
 }
