@@ -1,17 +1,42 @@
-.team__card__title{
-    width: 270px;
-    height: 30px;
-    color: black;
-    top: 2788px;
-}
-.team__card__subtitle{
-    width:270px ;
-    height:21px ;
-    color: red;
-}
-.team__card__text{
-    color: rosybrown;
-}
-.team__card__list__link{
+
+
+/*.box1{
+    height: 747px;
+            padding: 100px;
+        font-size: 100px;
+        line-height: 1;
+        color: rgb(191, 221, 19);
+    background-color: rgb(228, 15, 157);
+    background-image: url(/images/1142-860x340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+        background-position:  50% ;
+        background-origin: content-box;
+
+    background-attachment: fixed;
+    background-clip: ; 
+    background: #a2f url(/images/fox.svg)  50% 0 no-repeat fixed;
+background-size: cover;
+} 
+.box2{
+height: 400px;
+background: linear-gradient( to right #f0f #aff);
+
+
+
+}*/ 
+.container{
+    width: 900px;
+    height: 500px;
+    background-color: violet ;
     
 }
+.box__wrap{
+    width: 500px;
+    height: 400px;
+    background-color: turquoise;
+    background-position: 50%;
+    
+}
+[class*="box__item" 
+}]
