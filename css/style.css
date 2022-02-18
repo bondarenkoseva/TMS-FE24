@@ -115,29 +115,362 @@ top: 600px;
     left: 676px;
     top: 495px;
 }
-/*.fence{
+
+.fence1{
     width: 10px;
-    height: 74px;
-    background: rgb(82, 2, 231);
+    height: 50px;
+    background-color: rgb(226, 69, 95);
     position: absolute;
-    top: 502px;
-    left: 722px;
+    left: 725px;
+    top: 515px;
 }
-*/
+
+.fence2{
+    width: 10px;
+    height: 50px;
+    background-color: rgb(226, 69, 95);
+    position: absolute;
+    left: 740px;
+    top: 515px;
+}
+.fence3{
+    width: 10px;
+    height: 50px;
+    background-color: rgb(226, 69, 95);
+    position: absolute;
+    left: 755px;
+    top: 515px;
+}
+.fence4{
+    width: 10px;
+    height: 50px;
+    background-color: rgb(226, 69, 95);
+    position: absolute;
+    left: 770px;
+    top: 515px;
+}
+.fence5{
+    width: 10px;
+    height: 50px;
+    background-color: rgb(226, 69, 95);
+    position: absolute;
+    left: 785px;
+    top: 515px;
+}
+.fence6{
+    width: 10px;
+    height: 50px;
+    background-color: rgb(226, 69, 95);
+    position: absolute;
+    left: 800px;
+    top: 515px;
+}
+.fence7{
+    width: 10px;
+    height: 50px;
+    background-color: rgb(226, 69, 95);
+    position: absolute;
+    left: 815px;
+    top: 515px;
+}
 
 
 
 
+.fir-bole{
+    width: 20px;
+    height: 100px;
+    background-color: rgb(48, 3, 3);
+    position: absolute;
+    left: 790px;
+    top: 460px;
+}
+
+.fir-triangle1{
+    width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 80px solid rgb(4, 184, 4);
+    position: relative;
+    left: -49px;
+    top: -35px;
+}
+
+
+.fir-triangle2{
+    width: 0;
+	height: 0;
+	border-left: 56px solid transparent;
+	border-right: 56px solid transparent;
+	border-bottom: 80px solid rgb(4, 184, 4);
+    position: relative;
+    left: -45px;
+    top: -145px;
+}
+
+.fir-triangle3{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 80px solid rgb(4, 184, 4);
+    position: relative;
+    left: -39px;
+    top: -252px;
+}
+.fir-triangle4{
+    width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 80px solid rgb(4, 184, 4);
+    position: relative;
+    left: -34px;
+    top: -375px;
+}
 
 
 
+.rainbow{
+
+        width: 400px;
+        height: 273px;
+        border-radius: 121px 300px 0 0;
+background-color: red;
+position: absolute;
+top: 346px;
+left: -70px;
+
+}
+.rainbow1{
+
+    width: 370px;
+    height: 249px;
+    border-radius: 120px 313px 0 0;
+background-color: orange;
+position: relative;
+left: 10px;
+top: 20px;
+
+}
+.rainbow2{
+
+    width: 360px;
+    height: 249px;
+    border-radius: 120px 313px 0 0;
+background-color: yellow;
+position: relative;
+left: 10px;
+top: -215px;
+
+}
+.rainbow3{
+
+    width: 350px;
+    height: 249px;
+    border-radius: 120px 313px 0 0;
+background-color: rgb(41, 211, 41);
+position: relative;
+left: 10px;
+top: -450px;
+
+}
+.rainbow4{
+
+    width: 340px;
+    height: 249px;
+    border-radius: 120px 313px 0 0;
+background-color: rgb(9, 137, 211);
+position: relative;
+left: 10px;
+top: -680px;
+
+}
+.rainbow5{
+
+    width: 330px;
+    height: 249px;
+    border-radius: 120px 313px 0 0;
+background-color: blue;
+position: relative;
+left: 10px;
+top: -915px;
+
+}
+.rainbow6{
+
+    width: 320px;
+    height: 249px;
+    border-radius: 120px 313px 0 0;
+background-color: rgb(83, 8, 83);
+position: relative;
+left: 10px;
+top: -1145px;
+
+}
+.rainbow7{
+
+    width: 310px;
+    height: 235px;
+    border-radius: 120px 313px 0 0;
+background-color: aqua;
+position: relative;
+left: 10px;
+top: -1380px;
+
+}
+.sun-circle{
+
+    width: 250px;
+    height: 230px;
+    border-radius: 0 0 0 100%;
+background-color: yellow;
+position: absolute;
+right: 0;
+top: 0px;
+
+}
+
+.window-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    left: 639px;
+    top: 384px;
+}
+
+.cloud1{
+    position: relative;
+    z-index: 1;
+    left: 150px;
+    top: -500px;
+}
+.cloud-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    left: -15px;
+}
+.cloud-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 3;
+    left: 60px;
+}
+.cloud-3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    left: 20px;
+    bottom: -35px;
+}
+.cloud-4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    left: -50px;
+    bottom: -45px;
+
+}
 
 
+.cloud2{
+    position: relative;
+    z-index: 1;
+    left: 500px;
+    top: -600px;
+}
+.cloud3{
+    position: relative;
+    z-index: 1;
+    left: 1100px;
+    top: -500px;
+}
 
 
-
-
-
+.chimney{
+    position: relative;
+    z-index: 1;
+    width: 10px;
+    height: 40px;
+    background-color: black;
+    top: -417px;
+    left: 615px;
+}
+.smoke-1{
+    position: absolute;
+    z-index: 2;
+    width: 0; 
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 27px solid grey;
+    bottom: 40px;
+    left: -5px;
+}
+.smoke-2{
+    position: absolute;
+    z-index: 3;
+    width: 24px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: grey;
+    bottom: 60px;
+    left: -8px;
+}
+.smoke-3{
+    position: absolute;
+    z-index: 4;
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: grey;
+    bottom: 142px;
+}
+.smoke-4{
+    position: absolute;
+    z-index: 5;
+    width: 31px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: grey;
+    bottom: 80px;
+    left: -22px;
+}
+.smoke-5{
+    position: absolute;
+    z-index: 6;
+    width: 25px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: grey;
+    bottom: 110px;
+    left: -7px;
+}
+.hand{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 515px;
+    left: 608px;
+}
 
 
 
