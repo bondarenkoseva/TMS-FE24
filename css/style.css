@@ -407,7 +407,7 @@ font-weight: normal;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 79px;
+    margin-bottom: 80px;
 }
 .price__list{
     display: flex;
@@ -473,4 +473,170 @@ border: 2px solid #F5F5F5;
     align-items: center;
     justify-content: center;   
     text-align: center;
+}
+.reviews{
+    margin-top: 50px;
+
+}
+.reviews__title{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    padding-top: 50px;
+}
+.reviews__separator{
+    margin-bottom: 40px;
+    border: 1px solid #EC7979;
+    max-width: 170px;
+}
+.reviews__subtitle{
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 85px;
+}
+.reviews__info{
+    display: flex;
+    justify-content: space-between;
+}
+.customer{
+
+}
+.customer__text{
+    background: #E2E2E2;
+    border-radius: 10px;
+    width: 370px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    position: relative;
+    z-index: 1;
+}
+.customer__triangle{
+    width: 30px; 
+    height: 20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+    position: absolute;
+    z-index: 2;
+    left: 70px;
+    bottom: -30px;
+}
+.customer__info{
+    display: flex;
+    margin-top: 65px;
+    align-items: center;
+}
+.customer__img{
+    width: 70px;
+    height: 70px;
+}
+.customer__card{
+    margin-left: 30px;
+}
+.customer__name{
+    width: 270px;
+    height: 55px;
+    margin-bottom: 15px;
+}
+.customer__post{
+    color: #86878B;
+    margin-bottom: 65px;
+}
+.banner2 { 
+    background: #000000 50% url(/images/banner2.svg) ;
+    background-size: cover;
+    width: ;
+}
+.banner2__title{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+.banner2__separator{
+    margin-bottom: 40px;
+    border: 1px solid #ffffff;
+    max-width: 170px;
+}
+.banner2__subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.banner2__btn{
+    
+    display: flex;
+    justify-content: center;
+}
+.banner2__btn-width{
+    width: 370px;
+    margin-bottom: 50px;
+
+}
+.contact{
+    margin-top: 50px;
+
+}
+.contact__title{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    padding-top: 50px;
+}
+.contact__separator{
+    margin-bottom: 40px;
+    border: 1px solid #EC7979;
+    max-width: 170px;
+}
+.contact__subtitle{
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.contact__info{
+    display: flex;
+}
+.contact__btn{
+    display: flex;
+    justify-content: center;
+}
+.contact__btn-width{
+    width: 370px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer__menu{
+    background-color: #000000;
+    padding: 42px;
+}
+.footer__list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+/* не понимаю с картинкой */
+.icon-footer{
+    width: 53px;
+    height: 53px;
+    margin-left: 35px;
+    align-items: center;
+}
+.footer__subtitle{
+    display: flex;
+    justify-content: center;
 }
