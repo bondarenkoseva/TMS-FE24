@@ -71,7 +71,7 @@ h6 ,
     text-decoration: none;
     font-family: "Open Sans" ,  sans-serif;
     width: 270px;
-    min-height: 64px;
+
     padding: 18px  0;
     text-align: center;
     border: 2px solid #FFFFFF;
@@ -80,12 +80,24 @@ h6 ,
     line-height: 24px;
     color: #fff;
 }
+
+.button1:hover{
+    background: ;
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+.button1:active{
+    color: #fff;
+    background: #AB4949;
+    border: 2px solid #AB4949;
+}
+
 .button1--light{
     display: inline-block;
     text-decoration: none;
     font-family: "Open Sans" ,  sans-serif;
+    border: none;
     width: 270px;
-    min-height: 60px;
     padding: 18px  0;
     text-align: center;
     font-weight: 600px;
@@ -103,8 +115,9 @@ h6 ,
 .button1--light:active{
     background: #EC7979;
     box-shadow: inset 0px 0px 10px #EC7979;
-}
 
+}
+/*
 .button2{
     width: 470px;
     height: 70px;
@@ -120,25 +133,15 @@ h6 ,
     color: #fff;
     cursor: pointer;
 }
-
-.button1:hover{
-background: ;
-color: #EC7979;
-border: 2px solid #EC7979;
-}
-.button1:active{
-    color: #fff;
-    background: #AB4949;
-    border: 2px solid #AB4949;
-
-}
 .button2:hover{
     background: #AB4949;
 }
 .button2:active{
     background: #EC7979;
 
-}
+} */
+
+
 header{
     background: rgba(0, 0, 0, 1);
     height: 75px;
@@ -158,7 +161,7 @@ font-weight: 600;
 font-size: 14px;
 line-height: 19px;
 display: flex;
-padding: 25px;
+justify-content: center;
 align-items: center;
 text-align: center;
 min-width: 114px;
@@ -167,7 +170,6 @@ min-width: 114px;
     font-family: "Open Sans" serif;
 font-style: normal;
 font-weight: bold;
-padding: 25px;
 
 font-size: 13px;
 line-height: 18px;
@@ -196,25 +198,28 @@ color: #FFFFFF;
 
     text-decoration: none;
     display: flex;
-    height: 75px;
 
 }
 .header__list{
     text-decoration: none;
     color: #FFFFFF;
-    text-align: center;
     height: 75px;
     display:flex;
+    text-align: center;
     align-items: center;
 
 }
 
 .main-banner{
-    background: url(/images/image.svg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/image.jpg") 50% 50% no-repeat;
     background-size: cover;
+
     padding: 208px 0px 185px;
 }
-
+.main-banner__content{
+    display: flex;
+}
 .main-banner__logo{
     width: 270px;
     height: 100px;
@@ -226,6 +231,9 @@ color: #FFFFFF;
 }
 
 .main-banner__title{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
     margin-bottom: 55px;
 }
 /*
@@ -242,6 +250,58 @@ color: #FFFFFF;
 }
 .main-banner__subtitle{
     margin-bottom: 42px;
+
+}
+.main-banner__form{
+    min-width: 470px;
+    height: max-content;
+    background: #FFF;
+    border-radius: 10px;
+    margin-left: 30px;
+    overflow: hidden;
+
+}
+.form-inner{
+    padding: 30px  50px  75px;
+}
+.form__title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.form-input{
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 15px 0;
+    background-color: none;
+    outline: none;
+
+}
+
+.form-input:focus{
+    border-color: #000;
+}
+.form__row + .form__row{
+    margin-top: 15px;
+}
+
+.form-input::placeholder{
+    color: #bdbdbd;
+}
+
+.form__accent{
+    color: #EC7979;
+}
+
+.form__btn{
+    width: 100%;
+    box-shadow: none;
 }
 .social{
     background: rgba(248, 239, 239, 1);
@@ -255,15 +315,14 @@ color: #FFFFFF;
 }
 .social__title{
     color: #333333;
+    padding: 14px  0 14px ;
     margin-bottom: 18px;
-    height: 60px;
     max-width: 470px;
 }
 .social__subtitle{
     color:  #86878B;
     margin-bottom: 18px;
-    max-height: 42px;
-    max-width: 470px;
+
 }
 .icon{
     width: 70px;
@@ -278,12 +337,18 @@ color: #FFFFFF;
     
 }
 .tab{
+    padding: 0 / 99px / 0 / 50px;
+}
+.tab__content{
     border: 1px solid #C6CBCD;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
 
+
+}
+.tab__info{
+padding: 0px 30px 54px 100px;
 }
 .tab__menu{
 
@@ -295,60 +360,75 @@ text-transform: uppercase;
 font-family:" Open Sans" serif;
 font-style: normal;
 font-weight: normal;
+
 }
 .tab__item{
-    width: 38px;
-    height: 19px;
+    height: 40px;
     line-height: 19px;
     padding: 10px  0;
     font-size: 14px;
-
+    width: 184px;
+    cursor: pointer;
+}
+.tab__item:hover{
+    border-bottom:1px solid rgba(198, 203, 205, 1);
 
 
 }
+.tab__item:active{
+    height: 40px;
+    line-height: 19px;
+    padding: 10px  0;
+    font-size: 14px;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid rgba(198, 203, 205, 1);
+    border-bottom: transparent;
+
+
+}
+
 .tab__title{
-    height: 123px;
-    width: 570px;
-    line-height: 41px;
+    line-height: 40px;
+    padding:  42px 0;
     display: flex;
     align-items: center;
     margin-bottom: 27px;
-
 }
 .tab__subtitle{
     color: black;
-    width: 570px;
-    height: 210px;
     display: flex;
     align-items: center;
     margin-bottom: 27px;
-
-
+}
+.tab__subtitle-sub{
+    color: #000;
+    margin-bottom: 27px;
 }
 .tab__button{
-    margin-bottom: 54px;
 }
 .tab__img{
-    width: 470px;
-    height: 500px;
+    min-width: 470px;
     background-image: url(/images/Rectangle\ 111.svg);
-    margin-top: 40px;
 }
 .about{
-    margin-bottom: 50px;
+    padding: 0 50px 0 60px;
 }
-.about__title{
+.title{
+
+    padding: 54px 0;
     display: flex;
     justify-content: center;
-    height: 150px;
     align-items: center;
+    text-align: center;
+    min-height: 150px;
 }
-.about__separator{
+.separator{
     margin-bottom: 40px;
     border: 1px solid #EC7979;
     max-width: 170px;
 }
-.about__subtitle{
+.subtitle{
     color: #86878B;
     display: flex;
     justify-content: center;
@@ -413,16 +493,18 @@ font-weight: normal;
     display: flex;
     
     justify-content: space-between;
-    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+    
 }
-.list__item{
+.price__item{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: none;
 }
 .item-top{
     position: relative;
     bottom: 20px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
 .list__title{
     min-width: 370px;
@@ -550,9 +632,9 @@ border: 2px solid #F5F5F5;
     margin-bottom: 65px;
 }
 .banner2 { 
-    background: #000000 50% url(/images/banner2.svg) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/image2.jpg") 50% 50% no-repeat;
     background-size: cover;
-    width: ;
 }
 .banner2__title{
     text-transform: uppercase;
