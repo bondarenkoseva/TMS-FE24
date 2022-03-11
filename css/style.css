@@ -85,7 +85,6 @@ h6 ,
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 110px;
 }
 
 .button1{
@@ -327,9 +326,7 @@ color: #FFFFFF;
 }
 .social{
     background: rgba(248, 239, 239, 1);
-    padding: 2px / 0 / 18px;
-    margin-bottom: 99px;
-
+    padding: 2px  0  18px 0;
 }
 .social__content{
     display: flex;
@@ -343,8 +340,6 @@ color: #FFFFFF;
 }
 .social__subtitle{
     color:  #86878B;
-    margin-bottom: 18px;
-
 }
 .icon{
     width: 70px;
@@ -359,7 +354,7 @@ color: #FFFFFF;
     
 }
 .tab{
-    padding: 0 / 99px / 0 / 50px;
+    padding: 99px  0 50px 0;
 }
 .tab__content{
     border: 1px solid #C6CBCD;
@@ -434,7 +429,7 @@ font-weight: normal;
     background-image: url(/images/Rectangle\ 111.svg);
 }
 .about{
-    padding: 0 50px 0 60px;
+    padding: 0px 0 60px 0;
 }
 
 .about-info{
@@ -443,6 +438,7 @@ font-weight: normal;
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 110px;
 }
 .about-info__title{
     max-width: 369px;
@@ -475,9 +471,8 @@ font-weight: normal;
 
 .price__list{
     display: flex;
-    
     justify-content: space-between;
-    
+    margin-top: 79px;
 }
 .price__item{
     display: flex;
@@ -542,32 +537,14 @@ border: 2px solid #F5F5F5;
     text-align: center;
 }
 .reviews{
-    margin-top: 50px;
+    padding:  50px 0 64px 0;
 
 }
-.reviews__title{
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    height: 150px;
-    align-items: center;
-    padding-top: 50px;
-}
-.reviews__separator{
-    margin-bottom: 40px;
-    border: 1px solid #EC7979;
-    max-width: 170px;
-}
-.reviews__subtitle{
-    color: #86878B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 85px;
-}
+
 .reviews__info{
     display: flex;
     justify-content: space-between;
+    margin-top: 83px;
 }
 .customer{
 
@@ -620,6 +597,7 @@ border: 2px solid #F5F5F5;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/image2.jpg") 50% 50% no-repeat;
     background-size: cover;
+    padding: 50px 0 50px 0;
 }
 .banner2__title{
     text-transform: uppercase;
@@ -652,31 +630,23 @@ border: 2px solid #F5F5F5;
 
 }
 .contact{
-    margin-top: 50px;
-
+    padding: 50px 0 50px 0;
 }
-.contact__title{
-    text-transform: uppercase;
+.contact__form{
+    margin-top: 90px;
     display: flex;
-    justify-content: center;
-    height: 150px;
-    align-items: center;
-    padding-top: 50px;
+    justify-content: space-between;
 }
-.contact__separator{
-    margin-bottom: 40px;
-    border: 1px solid #EC7979;
-    max-width: 170px;
+.form{
+    width: 570px;
 }
-.contact__subtitle{
-    color: #86878B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 90px;
+.form__row-contact + .form__row-contact{
+    margin-top: 34px;
 }
-.contact__info{
-    display: flex;
+.message{
+    width: 570px;
+    margin-left: 30px;
+    padding: 8px 0 190px 0;
 }
 .contact__btn{
     display: flex;
