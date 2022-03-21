@@ -6,9 +6,7 @@ html, body{
     height: 100%;
 }
 body{
-
     font: 400 18px/21px 'Raleway', sans-serif;
-
 }
 .container{
     max-width: 1200px;
@@ -165,7 +163,7 @@ h6 ,
 
 header{
     background: rgba(0, 0, 0, 1);
-    height: 75px;
+    
 }
 .header__nav{
     display: flex;
@@ -221,6 +219,8 @@ color: #FFFFFF;
     display: flex;
 
 }
+
+
 .header__list{
     text-decoration: none;
     color: #FFFFFF;
@@ -235,8 +235,8 @@ color: #FFFFFF;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/image.jpg") 50% 50% no-repeat;
     background-size: cover;
-
     padding: 208px 0px 185px;
+    position: relative;
 }
 .main-banner__content{
     display: flex;
@@ -274,12 +274,13 @@ color: #FFFFFF;
 
 }
 .main-banner__form{
-    min-width: 470px;
+    width: 100%;
     height: max-content;
     background: #FFF;
     border-radius: 10px;
     margin-left: 30px;
     overflow: hidden;
+
 
 }
 .form-inner{
@@ -342,12 +343,21 @@ color: #FFFFFF;
     color:  #86878B;
 }
 .icon{
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 55px;
     margin-left: 30px;
+    display: flex;
     align-items: center;
+    justify-content: center;
 
 }
+.fa-facebook-f{
+    font-size: ;
+    text-decoration: none;
+    color: rgba(204, 204, 204, 1);
+    
+}
+
 .social__list{
     padding:35px 0;
     display: flex;
@@ -424,9 +434,11 @@ font-weight: normal;
 }
 .tab__button{
 }
+
 .tab__img{
-    min-width: 470px;
+    width: 100%;
     background-image: url(/images/Rectangle\ 111.svg);
+    background-size: cover;
 }
 .about{
     padding: 0px 0 60px 0;
@@ -437,7 +449,6 @@ font-weight: normal;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-bottom: 50px;
     margin-top: 110px;
 }
 .about-info__title{
@@ -474,20 +485,26 @@ font-weight: normal;
     justify-content: space-between;
     margin-top: 79px;
 }
-.price__item{
+.price-item{
     display: flex;
     flex-direction: column;
     align-items: center;
     border: none;
+    width: 33%;
+}
+.price-item:hover{
+    transform: scale(110%);
+}
+.price-item + .price-item{
+    margin-left: 30px;
 }
 .item-top{
-    
     position: relative;
-    bottom: 20px;
+    transform: translateY(-20px);
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
-.list__title{
-    min-width: 370px;
+.price-item__title{
+    min-width: 100%;
     height: 60px;
     color: #FFFFFF;
     text-align: center;
@@ -498,9 +515,9 @@ font-weight: normal;
 border: 2px solid #F5F5F5;
 
 }
-.list__subtitle{
+.price-item__subtitle{
     color: #fff;
-    width: 370px;
+    width: 100%;
     height: 100px;
     text-align: center;
     
@@ -511,9 +528,9 @@ border: 2px solid #F5F5F5;
 border: 2px solid #F5F5F5;
 
 }
-.list__descrip{
+.price-item__descrip{
     color: rgba(255, 255, 255, 0.5);
-width: 370px;
+width: 100%;
 height: 50px;
 
 display: flex;
@@ -524,8 +541,11 @@ text-align: center;
 background: #333333;
 border: 2px solid #F5F5F5;
 }
-.list__shop{
-    width: 370px;
+.price-item__list{
+    width: 100%;
+}
+.price-item__shop{
+    width: 100%;
     height: 50px;
     color: #86878B;
     background: #FFFFFF;

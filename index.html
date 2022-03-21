@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
     <title>AXIT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <meta charset="UTF-8">
@@ -9,10 +10,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/icons.css">
+<link rel="stylesheet" href="./css/bootstrap-grid.css">
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
 <header>
@@ -21,7 +23,6 @@
 <div class="header__logo">
     <a href=""><img src="./images/logo.svg" alt="AXIT"></a>
 </div>
-<ul class="header__menu handle">
 <ul class="header__menu ">
     <li class="item"><a class="header__list" href="">Features</a></li>
     <li class="item"><a class="header__list" href="">About</a></li>
@@ -32,7 +33,7 @@
 </nav>
 </div>
 </header>
-<main>
+<main>  
 <section class="main-banner">
 <div class="container ">
 <div class="main-banner__content"> 
@@ -77,7 +78,6 @@
 </section>
 </section>
 <section class="social">
-<div class="container social__content">
 <div class="container ">
 <div class="social__content">
 <div class="social__info">
@@ -90,13 +90,13 @@ Aenean euismod bibendum laoreet.
 </p>
 </div>
 <ul class="social__list ">
-    <li class="icon"><a href=""><img src="/images/facebook.svg" alt=""></a></li>
-    <li class="icon"><a href=""><img src="/images/twitter_icon.svg" alt=""></a></li>
-    <li class="icon"><a href=""><img src="/images/linkedin_icon.svg" alt=""></a></li>
-    <li class="icon"><a href=""><img src="/images/pinterest_icon.svg" alt=""></a></li>
-    <li class="icon"><a href=""><img src="/images/instagram_icon.svg" alt=""></a></li>
-    <li class="icon"><a href=""><img src="/images/github_icon.svg" alt=""></a></li>
-    <li class="icon"><a href=""><img src="/images/rss_icon.svg" alt=""></a></li>
+    <li class="icon"><a href="" class=" fa-brands fa-facebook-f fa-lg"></a></li>
+    <li class="icon"><a href="" class=""></a></li>
+    <li class="icon"><a href="" class=""></a></li>
+    <li class="icon"><a href="" class=""></a></li>
+    <li class="icon"><a href="" class=""></a></li>
+    <li class="icon"><a href="" class=""></a></li>
+    <li class="icon"><a href="" class=""></a></li>
 </ul>
 
 
@@ -185,65 +185,64 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 </p>
 <div class="price__list">
-    <div class="price__item">
-        <h3 class="list__title title4">
+    <div class="price-item">
+        <h3 class="price-item__title title4">
             Basic
         </h3>
-        <p class="list__subtitle title3">
+        <p class="price-item__subtitle title3">
             $10
         </p>
-        <p class="list__descrip text">
+        <p class="price-item__descrip text">
             Free for life
         </p>
-        <ul class=" text">
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
+        <ul class="price-item__list text">
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
         </ul>
     </div>
-    <div class="price__item item-top">
-        <h3 class="list__title title4">
+    <div class="price-item item-top">
+        <h3 class="price-item__title title4">
             Optima
         </h3>
-        <p class="list__subtitle title3">
+        <p class="price-item__subtitle title3">
             $20
         </p>
-        <p class="list__descrip text">
+        <p class="price-item__descrip text">
             Free for life
         </p>
-        <ul class=" text">
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
+        <ul class="price-item__list text">
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
         </ul>
     </div>
-    <div class="list__item">
-    <div class="price__item">
-        <h3 class="list__title title4">
-            Pro
+    <div class="price-item">
+        <h3 class="price-item__title title4">
+            Pro 
         </h3>
-        <p class="list__subtitle title3">
+        <p class="price-item__subtitle title3">
             $30
         </p>
-        <p class="list__descrip text">
+        <p class="price-item__descrip text">
             Free for life
         </p>
-        <ul class=" text">
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
-            <li class="list__shop text">1 gb of space</li>
+        <ul class="price-item__list text">
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
+            <li class="price-item__shop text">1 gb of space</li>
         </ul>
     </div>
-</div>
+
 </div>
 </div>
 </div>
@@ -345,9 +344,6 @@ quo suscipit.
 </div>
 </div>
 </section>
-
-<!---нужно доделать flex and input-->
-
 <section class="contact container"> 
 <section class="contact "> 
 <div class="container">
@@ -381,10 +377,9 @@ quo suscipit.
 </section>
 </main>
 <footer>
-    <div class="footer__menu">
-
 <div class="footer__menu">
-    <div class="container">
+<div class="footer__menu">
+<div class="container">
     <ul class="footer__list">
         <li class="icon-footer"><a href=""><img src="/images/facebook.svg" alt=""></a></li>
         <li class="icon-footer"><a href=""><img src="/images/twitter_icon.svg" alt=""></a></li>
@@ -401,7 +396,6 @@ quo suscipit.
 </div>
 </div>
 </div>
-
 </footer>
 </body>
 </html>
