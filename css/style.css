@@ -136,29 +136,7 @@ h6 ,
     box-shadow: inset 0px 0px 10px #EC7979;
 
 }
-/*
-.button2{
-    width: 470px;
-    height: 70px;
-    border: none;
-    outline: none;
-    background: #EC7979;
-    border-radius: 0px 0px 10px 10px;
-    font-family: "Open Sans" ,  sans-serif;    
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    color: #fff;
-    cursor: pointer;
-}
-.button2:hover{
-    background: #AB4949;
-}
-.button2:active{
-    background: #EC7979;
 
-} */
 
 
 header{
@@ -257,13 +235,6 @@ color: #FFFFFF;
     text-transform: uppercase;
     margin-bottom: 55px;
 }
-/*
-.main-banner__subtitle{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 400;
-
-}*/
 .main-banner__separator{
     margin: 0 0 42px;
     width: 170px;
