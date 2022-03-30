@@ -9,30 +9,81 @@
     }
 }
 @media (max-width: 991px){
+    .title1{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .title2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .title3{
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .title4{
+        font-size: 18px;
+    line-height: 25px;
+    }
+    .text{
+        line-height: 16px;
+        font-size: 14px;
+    }
     .price-item + .price-item{
         margin-left: 20px;
     }
+    .customer + .customer{
+        margin-left: 10px;
+    }
 }
 @media (max-width: 767px){
+
+    .header__menu{
+        display: none;
+    }
+    .tab__info{
+        padding: 0 23px 30px 23px;
+    }
+    .tab__title{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .tab__subtitle{
+        display: flex;
+        text-align: center;
+    }
+    .tab__subtitle-sub{
+        display: flex;
+        text-align: center;
+    }
+    .tab__button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .tab__img{
+        display: none;
+    }
     .price-item + .price-item{
         margin-left: 10px;
     }
 }
 @media (max-width: 575px){
-
-    .header__menu{
-        visibility: hidden;
-    }
     .main-banner{
         padding: 84px 16px 56px 16px;
     }
     .main-banner__content{
         display: flex;
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
+    .main-banner__info{
+        width: auto;
+    }
     .main-banner__logo{
-        visibility: hidden;
+        display: none;
     }
     .main-banner__separator{
         margin: auto;    
@@ -44,6 +95,7 @@
         margin-top: 56px;
         margin-left: 0;
     }
+
     .price__list{
         display: flex;
         flex-direction: column;
@@ -62,22 +114,19 @@
         margin-left: 0;
         margin-top: 27px;
     }
-    .tab__title{
+    .contact__form{
         display: flex;
-        text-align: center;
+        align-items: center;
+        flex-direction: column;
     }
-    .tab__subtitle{
-        display: flex;
-        text-align: center;
-    }
-    .tab__subtitle-sub{
-        display: flex;
-        text-align: center;
-    }
-    .tab__button{
+    .form {
         width: 100%;
     }
-    .tab__img{
-        visibility: hidden;
+    .form-area {
+        width: 100%;
+    }
+    .form-message{
+        margin-left: 0;
+        margin-top: 34px;
     }
 }

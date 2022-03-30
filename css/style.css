@@ -61,6 +61,7 @@ h6 ,
 .text{
     color: #fff;
     font-size: 18px;
+    line-height: 21px;
     font-weight: 400;
 }
 .title{
@@ -192,7 +193,8 @@ background: #AB4949;
 color: #FFFFFF;
 }
 .header__menu{
-
+    font-size: 14px;
+    line-height: 19px;
     text-decoration: none;
     display: flex;
 
@@ -218,6 +220,7 @@ color: #FFFFFF;
 }
 .main-banner__content{
     display: flex;
+    justify-content: space-between;
 }
 .main-banner__logo{
     width: 270px;
@@ -225,8 +228,8 @@ color: #FFFFFF;
     margin-bottom: 51px;
     padding: 0 / 22px / 100px / 22px;
 }
-.main-banner__img{
-
+.main-banner__info{
+    width: 50%;
 }
 
 .main-banner__title{
@@ -245,7 +248,8 @@ color: #FFFFFF;
 
 }
 .main-banner__form{
-    width: 100%;
+    width: 50%;
+    max-width: 470px;
     height: max-content;
     background: #FFF;
     border-radius: 10px;
@@ -295,6 +299,7 @@ color: #FFFFFF;
 .form__btn{
     width: 100%;
     box-shadow: none;
+    cursor: pointer;
 }
 .social{
     background: rgba(248, 239, 239, 1);
@@ -314,8 +319,6 @@ color: #FFFFFF;
     color:  #86878B;
 }
 .icon{
-    width: 30px;
-    height: 55px;
     margin-left: 30px;
     display: flex;
     align-items: center;
@@ -323,11 +326,41 @@ color: #FFFFFF;
 
 }
 .fa-facebook-f{
-    font-size: ;
+    font-size: 50px;
     text-decoration: none;
     color: rgba(204, 204, 204, 1);
     
 }
+.fa-twitter{
+    text-decoration: none;
+    color: rgba(204, 204, 204, 1);
+    font-size:50px ;
+}
+.fa-linkedin{
+    text-decoration: none;
+    color: rgba(204, 204, 204, 1);
+    font-size:50px ;
+}
+.fa-pinterest{
+    text-decoration: none;
+    color: rgba(204, 204, 204, 1);
+    font-size:50px ;
+}
+.fa-instagram{
+    text-decoration: none;
+    color: rgba(204, 204, 204, 1);
+    font-size:50px ;
+}
+.fa-github{
+    text-decoration: none;
+    color: rgba(204, 204, 204, 1);
+    font-size:50px ;
+}
+.fa-rss{
+    text-decoration: none;
+    color: rgba(204, 204, 204, 1);
+    font-size:50px ;
+}   
 
 .social__list{
     padding:35px 0;
@@ -537,14 +570,17 @@ border: 2px solid #F5F5F5;
     justify-content: space-between;
     margin-top: 83px;
 }
+.customer + .customer{
+    margin-left: 30px;
+}
 .customer{
-
+    width: 33%;
 }
 .customer__text{
     background: #E2E2E2;
     border-radius: 10px;
-    width: 370px;
-    height: 180px;
+    width: 100%;
+    padding: 38px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -629,15 +665,29 @@ border: 2px solid #F5F5F5;
     justify-content: space-between;
 }
 .form{
-    width: 570px;
+    width: 50%;
 }
 .form__row-contact + .form__row-contact{
     margin-top: 34px;
 }
-.message{
-    width: 570px;
+.form-area{
+    width: 50%;
+}
+.form-message:focus{
+    color:  #000;
+}
+.form-message::placeholder{
+    color: #bdbdbd;
+}
+.form-message{
+    padding: 0 0 175px 0;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+.form-message{
+    width: 100%;
     margin-left: 30px;
-    padding: 8px 0 190px 0;
 }
 .contact__btn{
     display: flex;
@@ -659,12 +709,12 @@ border: 2px solid #F5F5F5;
 }
 /* не понимаю с картинкой */
 .icon-footer{
-    width: 53px;
-    height: 53px;
     margin-left: 35px;
+    display: flex;
     align-items: center;
 }
 .footer__subtitle{
+    color: rgba(204, 204, 204, 1);
     display: flex;
     justify-content: center;
 }
