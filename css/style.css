@@ -85,13 +85,11 @@ h6 ,
     justify-content: center;
     align-items: center;
 }
-
 .button1{
     display: inline-block;
     text-decoration: none;
     font-family: "Open Sans" ,  sans-serif;
     width: 270px;
-
     padding: 18px  0;
     text-align: center;
     border: 2px solid #FFFFFF;
@@ -100,7 +98,6 @@ h6 ,
     line-height: 24px;
     color: #fff;
 }
-
 .button1:hover{
     background: ;
     color: #EC7979;
@@ -111,7 +108,6 @@ h6 ,
     background: #AB4949;
     border: 2px solid #AB4949;
 }
-
 .button1--light{
     display: inline-block;
     text-decoration: none;
@@ -131,76 +127,67 @@ h6 ,
     color: #FFFFFF;
     border: none;
 }
-
 .button1--light:active{
     background: #EC7979;
     box-shadow: inset 0px 0px 10px #EC7979;
-
 }
-
-
-
 header{
     background: rgba(0, 0, 0, 1);
-    
 }
 .header__nav{
     display: flex;
     justify-content: space-between;
 }
-
 .header__logo{
     margin-left: -55px;
 }
 .item{
-font-family: "Open Sans" serif;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-min-width: 114px;
+    font-family: "Open Sans" serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 114px;
 }
 .item:hover{
     font-family: "Open Sans" serif;
-font-style: normal;
-font-weight: bold;
-
-font-size: 13px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-
-color: #FFFFFF;
-background: #EC7979;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #EC7979;
 }
 .item:active{
     font-family: "Open Sans" serif;
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-background: #AB4949;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: #AB4949;
+    color: #FFFFFF;
 }
 .header__menu{
     font-size: 14px;
     line-height: 19px;
     text-decoration: none;
     display: flex;
-
 }
-
-
+.menu{
+    display: none;
+}
 .header__list{
     text-decoration: none;
     color: #FFFFFF;
@@ -208,9 +195,7 @@ color: #FFFFFF;
     display:flex;
     text-align: center;
     align-items: center;
-
 }
-
 .main-banner{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/image.jpg") 50% 50% no-repeat;
@@ -231,7 +216,6 @@ color: #FFFFFF;
 .main-banner__info{
     width: 50%;
 }
-
 .main-banner__title{
     display: flex;
     align-items: center;
@@ -241,11 +225,9 @@ color: #FFFFFF;
 .main-banner__separator{
     margin: 0 0 42px;
     width: 170px;
-    
 }
 .main-banner__subtitle{
     margin-bottom: 42px;
-
 }
 .main-banner__form{
     width: 50%;
@@ -255,8 +237,6 @@ color: #FFFFFF;
     border-radius: 10px;
     margin-left: 30px;
     overflow: hidden;
-
-
 }
 .form-inner{
     padding: 30px  50px  75px;
@@ -266,7 +246,6 @@ color: #FFFFFF;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-
 .form-input{
     width: 100%;
     color: #000;
@@ -278,24 +257,19 @@ color: #FFFFFF;
     padding: 15px 0;
     background-color: none;
     outline: none;
-
 }
-
 .form-input:focus{
     border-color: #000;
 }
 .form__row + .form__row{
     margin-top: 15px;
 }
-
 .form-input::placeholder{
     color: #bdbdbd;
 }
-
 .form__accent{
     color: #EC7979;
 }
-
 .form__btn{
     width: 100%;
     box-shadow: none;
@@ -313,7 +287,6 @@ color: #FFFFFF;
     color: #333333;
     padding: 14px  0 14px ;
     margin-bottom: 18px;
-    max-width: 470px;
 }
 .social__subtitle{
     color:  #86878B;
@@ -323,13 +296,11 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .fa-facebook-f{
     font-size: 50px;
     text-decoration: none;
     color: rgba(204, 204, 204, 1);
-    
 }
 .fa-twitter{
     text-decoration: none;
@@ -356,16 +327,9 @@ color: #FFFFFF;
     color: rgba(204, 204, 204, 1);
     font-size:50px ;
 }
-.fa-rss{
-    text-decoration: none;
-    color: rgba(204, 204, 204, 1);
-    font-size:50px ;
-}   
-
 .social__list{
     padding:35px 0;
     display: flex;
-    
 }
 .tab{
     padding: 99px  0 50px 0;
@@ -375,50 +339,39 @@ color: #FFFFFF;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-
-
 }
 .tab__info{
 padding: 0px 30px 54px 100px;
+width: 100%;
 }
 .tab__menu{
-
-    
+    width: 50%;
     display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-font-family:" Open Sans" serif;
-font-style: normal;
-font-weight: normal;
-
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:" Open Sans" serif;
+    font-style: normal;
+    font-weight: normal;
 }
 .tab__item{
-    height: 40px;
     line-height: 19px;
     padding: 10px  0;
     font-size: 14px;
-    width: 184px;
+    width: 100%;
     cursor: pointer;
 }
 .tab__item:hover{
     border-bottom:1px solid rgba(198, 203, 205, 1);
-
-
 }
 .tab__item:active{
-    height: 40px;
     line-height: 19px;
     padding: 10px  0;
     font-size: 14px;
-    width: 200px;
     cursor: pointer;
     border: 1px solid rgba(198, 203, 205, 1);
     border-bottom: transparent;
-
-
 }
-
 .tab__title{
     line-height: 40px;
     padding:  42px 0;
@@ -436,9 +389,6 @@ font-weight: normal;
     color: #000;
     margin-bottom: 27px;
 }
-.tab__button{
-}
-
 .tab__img{
     width: 100%;
     background-image: url(/images/Rectangle\ 111.svg);
@@ -447,7 +397,6 @@ font-weight: normal;
 .about{
     padding: 0px 0 60px 0;
 }
-
 .about-info{
     display: flex;
     justify-content: space-around;
@@ -456,9 +405,14 @@ font-weight: normal;
     margin-top: 110px;
 }
 .about-info__title{
-    max-width: 369px;
-    height: 100px;
+    padding: 34px 0 ;
     margin-bottom: 8px;
+}
+.about-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
 }
 .about-info__icon{
     width: 92px;
@@ -468,22 +422,15 @@ font-weight: normal;
     border: 1px solid #EC7979;
     box-sizing: border-box;
     border-radius: 50%;
-
-
 }
-
 .about-info__subtitle{
     color: #000;
-
 }
 .price{
     background-color: rgba(245, 245, 245, 1);
     background-size: cover;
     padding: 50px 0;
-
 }
-
-
 .price__list{
     display: flex;
     justify-content: space-between;
@@ -495,17 +442,17 @@ font-weight: normal;
     align-items: center;
     border: none;
     width: 33%;
+    cursor: pointer;
 }
 .price-item:hover{
     transform: scale(110%);
 }
-.price-item + .price-item{
-    margin-left: 30px;
-}
-.item-top{
-    position: relative;
+.price-item:active{
     transform: translateY(-20px);
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+.price-item + .price-item{
+    margin-left: 30px;
 }
 .price-item__title{
     min-width: 100%;
@@ -516,34 +463,30 @@ font-weight: normal;
     align-items: center;
     justify-content: center;
     background: #333333;
-border: 2px solid #F5F5F5;
-
+    border: 2px solid #F5F5F5;
 }
 .price-item__subtitle{
     color: #fff;
     width: 100%;
     height: 100px;
-    text-align: center;
-    
+    text-align: center;    
     display: flex;
     align-items: center;
     justify-content: center;
     background: #333333;
-border: 2px solid #F5F5F5;
-
+    border: 2px solid #F5F5F5;
 }
 .price-item__descrip{
     color: rgba(255, 255, 255, 0.5);
-width: 100%;
-height: 50px;
-
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-text-align: center;
-background: #333333;
-border: 2px solid #F5F5F5;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #333333;
+    border: 2px solid #F5F5F5;
 }
 .price-item__list{
     width: 100%;
@@ -562,12 +505,10 @@ border: 2px solid #F5F5F5;
 }
 .reviews{
     padding:  50px 0 64px 0;
-
 }
-
 .reviews__info{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 83px;
 }
 .customer + .customer{
@@ -610,15 +551,14 @@ border: 2px solid #F5F5F5;
 }
 .customer__card{
     margin-left: 30px;
+    width: 100%;
 }
 .customer__name{
-    width: 270px;
-    height: 55px;
+
     margin-bottom: 15px;
 }
 .customer__post{
     color: #86878B;
-    margin-bottom: 65px;
 }
 .banner2 { 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -647,14 +587,12 @@ border: 2px solid #F5F5F5;
     margin-bottom: 75px;
 }
 .banner2__btn{
-    
     display: flex;
     justify-content: center;
 }
 .banner2__btn-width{
     width: 370px;
     margin-bottom: 50px;
-
 }
 .contact{
     padding: 50px 0 50px 0;
@@ -698,20 +636,22 @@ border: 2px solid #F5F5F5;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.footer__menu{
-    background-color: #000000;
-    padding: 42px;
+.footer-back{
+    background: rgb(0, 0, 0, 1);
+    padding: 35px 0 75px;
 }
 .footer__list{
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
 }
-/* не понимаю с картинкой */
 .icon-footer{
     margin-left: 35px;
     display: flex;
     align-items: center;
+}
+.icon-left{
+    margin-left: 0;
 }
 .footer__subtitle{
     color: rgba(204, 204, 204, 1);

@@ -35,11 +35,45 @@
     .customer + .customer{
         margin-left: 10px;
     }
+    .form-message {
+        width: 100%;
+        margin-left: 15px;
+        padding: 0px 0 185px 0;
+    }
 }
 @media (max-width: 767px){
 
     .header__menu{
         display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .fa-microsoft{
+        display: flex;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+    }
+    .social{
+        padding: 36px 17px 44px 17px ;
+    }
+    .social__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .icon{
+        margin-left: 22px;
+    }
+    .icon-first{
+        margin-left: 0;
+    }
+    .tab__menu{
+        width: 100%;
     }
     .tab__info{
         padding: 0 23px 30px 23px;
@@ -65,8 +99,22 @@
     .tab__img{
         display: none;
     }
+    .about-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-item{
+        width: auto;
+        margin-bottom: 44px;
+    }
     .price-item + .price-item{
         margin-left: 10px;
+    }
+    .customer{
+        width: 50%;
+    }
+    .customer-hidden{
+        display: none;
     }
 }
 @media (max-width: 575px){
@@ -113,6 +161,12 @@
     .price-item + .price-item{
         margin-left: 0;
         margin-top: 27px;
+    }
+    .customer{
+        width: 100%;
+    }
+    .customer-hidden2{
+        display: none;
     }
     .contact__form{
         display: flex;
