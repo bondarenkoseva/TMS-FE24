@@ -361,16 +361,12 @@ width: 100%;
     width: 100%;
     cursor: pointer;
 }
-.tab__item:hover{
-    border-bottom:1px solid rgba(198, 203, 205, 1);
-}
 .tab__item:active{
     line-height: 19px;
     padding: 10px  0;
     font-size: 14px;
     cursor: pointer;
-    border: 1px solid rgba(198, 203, 205, 1);
-    border-bottom: transparent;
+
 }
 .tab__title{
     line-height: 40px;
