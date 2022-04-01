@@ -153,14 +153,11 @@
         width: 80%;
     }
     .price-item:hover{
-        transform: none;
-    }
-    .item-top{
-        transform: none;
+        transform: scale(110%);
     }
     .price-item + .price-item{
         margin-left: 0;
-        margin-top: 27px;
+        margin-top: 35px;
     }
     .customer{
         width: 100%;
